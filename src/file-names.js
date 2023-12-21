@@ -7,6 +7,12 @@ const { NotImplementedError } = require('../extensions/index.js');
  *
  * Return an array of names that will be given to the files.
  *
+ * Есть список файлов, так как два файла не могут иметь одинаковые имена,
+ * тот, который придет позже, будет иметь суффикс (к),
+ * где к - наименьшее целое число, такое, что найденное имя пока не используется.
+ *
+ * Верните массив имен, которые будут даны файлам.
+ * 
  * @param {Array} names
  * @return {Array}
  *
